@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+html {
+    background: url(img/background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    overflow: hidden;
+}
+
+.flex-row {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-black {
+    color: #fff;
+}
+
+
+nav {
+    position: relative;
+    justify-content: space-between;
+    height: 0rem;
+    min-height: 11vh;
+    overflow-y: hidden;
+    transition: height 1s cubic-bezier(0.26, -0.01, 0, 1.01);
+}
+
+nav .nav-brand a {
+    display: block;
+    padding: 1rem;
+    margin-left: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.6rem;
+}
+
+nav .nav-items {
+    list-style-type: none;
+    margin: 0;
+    margin-right: 2rem;
+}
+
+nav .nav-items .nav-link {
+    padding: 1.5rem 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1rem;
+}
+
+nav .nav-items .nav-link:hover {
+    background-color: transparent;
+}
+
+nav .social {
+    padding: 1.3rem;
+}
+
+nav .social i {
+    padding: 0.2rem;
+}
+
+@media only screen and (max-width: 800px) {
+    .nav-items {
+    
+    }
+    .nav-brand {
+        
+    }
+}
+
+h1 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 2.5rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-stretch: expanded;
+    margin: 0;    
+}
+
+p {
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    font-style: italic;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.hero {
+    max-width: 900px;
+    margin: auto;
+}
+
+.hero-text {
+    color: #fff;
+    display: flex;
+    flex: 0 1 40vw;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+@media only screen and (max-width: 800px) {
+    .hero-text {
+        width: 90vh;
+
+    }
+}
+
+.hero-text p {
+    text-align: center;
+    justify-content: center;
+}
+
+.btn {
+    padding: 0.5rem 2rem;
+    border: 2px #ccc solid;
+    display: inline-block;
+    margin: 3rem 0 0;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #7a30c2;
+    transition: 500ms ease-out;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 1rem;
+    margin: auto;
+    background-color: transparent;
+}
+
+.main-footer{
+    margin-bottom: 0;
+    color: rgb(143, 140, 140);
+}
