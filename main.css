@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    height: auto;
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -142,5 +142,13 @@ footer {
 }
 
 @media only screen and (max-width: 580px) {
-    
+    .nav-brand {
+        padding-right: 20%
+    }
+    .nav {
+        min-height: 14vh;
+    }
+    .nav-items, .social i {
+        
+    }
 }
