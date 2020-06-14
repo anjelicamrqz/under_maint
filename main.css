@@ -156,11 +156,11 @@ footer {
         display: none;
     }
     .footer-icons {
+        position: relative;
         display: flex;
         justify-content: center;
         padding-top: 1rem;
         padding-bottom: 2rem;
-        letter-spacing: 1rem;
         list-style-type: none;
     }
     .nav-link {
@@ -171,6 +171,10 @@ footer {
         -moz-background-clip: text;
         background-clip: text;
        -webkit-text-fill-color:transparent;
+    }
+    .main-footer{
+        position: relative;
+        justify-content: center;
     }
 }
 
