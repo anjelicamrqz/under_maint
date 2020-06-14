@@ -1,15 +1,15 @@
 body {
     margin: 0;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.5); 
 }
 
 html {
-    background: url(img/background.jpg) no-repeat;
+    background: url(img/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-position: center;
-    height: 100%;
-    overflow: hidden;
 }
 
 .flex-row {
@@ -20,7 +20,7 @@ a {
     text-decoration: none;
 }
 
-.text-black {
+.logo {
     color: #fff;
 }
 
@@ -46,6 +46,7 @@ nav .nav-items {
     list-style-type: none;
     margin: 0;
     margin-right: 2rem;
+    color:#fff;
 }
 
 nav .nav-items .nav-link {
@@ -54,8 +55,13 @@ nav .nav-items .nav-link {
     font-size: 1.1rem;
 }
 
-nav .nav-items .nav-link:hover {
+nav .nav-items {
     background-color: transparent;
+}
+
+.text-black:hover {
+    color: #3c1d3f;
+    transition: 500ms ease-out;
 }
 
 nav .social {
@@ -121,7 +127,7 @@ p {
 }
 
 .btn:hover {
-    background-color: #7a30c2;
+    background-color: #3c1d3f;
     transition: 500ms ease-out;
 }
 
